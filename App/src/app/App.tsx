@@ -70,10 +70,9 @@ export default function App() {
       <section className="bg-[#1a1a1a] py-16 px-16 border-y border-[#8b0000]/20">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-lg leading-relaxed text-[#d0d0d0] mb-6">
-            description
-          </p>
-          <p className="text-lg leading-relaxed text-[#d0d0d0]">
-            description pt2
+            Decide between blindly following orders from the King as his Executioner, or disobeying his commands and free the criminals from 
+            their fate. Your decision will affect the ending of the story and there are multiple endings to discover. 
+
           </p>
         </div>
       </section>
@@ -91,7 +90,7 @@ export default function App() {
                 </Accordion.Trigger>
               </Accordion.Header>
               <Accordion.Content className="px-4 pb-4 text-[#c0c0c0]">
-                filler text
+                There are various buildings across the map are important to the story and gameplay. Find out their purpose and interact with them to progress through the game.
               </Accordion.Content>
             </Accordion.Item>
 
@@ -103,7 +102,7 @@ export default function App() {
                 </Accordion.Trigger>
               </Accordion.Header>
               <Accordion.Content className="px-4 pb-4 text-[#c0c0c0]">
-                filler text
+                Your decisions matter. Follow the King and his tyranny or disobey him and set the innocent free.
               </Accordion.Content>
             </Accordion.Item>
 
@@ -115,19 +114,7 @@ export default function App() {
                 </Accordion.Trigger>
               </Accordion.Header>
               <Accordion.Content className="px-4 pb-4 text-[#c0c0c0]">
-                filler text
-              </Accordion.Content>
-            </Accordion.Item>
-
-            <Accordion.Item value="exploration" className="bg-[#1a1a1a] rounded-lg border border-[#8b0000]/50 shadow-lg shadow-[#8b0000]/10">
-              <Accordion.Header>
-                <Accordion.Trigger className="flex items-center justify-between w-full px-4 py-4 text-left group hover:bg-[#2a2a2a] transition-colors">
-                  <span className="font-semibold text-[#e0e0e0]">Immersive Experience</span>
-                  <ChevronDown className="w-5 h-5 text-[#8b0000] transition-transform group-data-[state=open]:rotate-180" />
-                </Accordion.Trigger>
-              </Accordion.Header>
-              <Accordion.Content className="px-4 pb-4 text-[#c0c0c0]">
-                filler text
+                Some NPCs have dialogues with AI voices. Criminals can follow you to get executed or you can spare them instead.
               </Accordion.Content>
             </Accordion.Item>
           </Accordion.Root>
@@ -150,7 +137,7 @@ export default function App() {
               />
             </div>
             <p className="text-[#c0c0c0]">
-              filler text
+              Our third game idea before it got scrapped for scope creep. We fell back to our second idea which was simpler and more manageable.
             </p>
           </div>
 
@@ -165,7 +152,7 @@ export default function App() {
               />
             </div>
             <p className="text-[#c0c0c0]">
-              filler text
+              Castle village map with basic NPCs and a working main character. Day/Night cycle was implemented but not fully utilized in the demo.
             </p>
           </div>
 
@@ -180,7 +167,7 @@ export default function App() {
               />
             </div>
             <p className="text-[#c0c0c0]">
-              filler text
+              Most interactions and plans made it to the final release, but there are still some features missing that we wanted to implement but ran out of time.
             </p>
           </div>
         </div>
@@ -194,28 +181,28 @@ export default function App() {
             <div className="bg-[#1a1a1a] p-6 rounded-lg border border-[#8b0000]/50 shadow-lg shadow-[#8b0000]/10 hover:border-[#dc143c]/70 transition-all">
               <h3 className="text-xl font-semibold text-[#dc143c] mb-3">Map Interactions and Details</h3>
               <p className="text-[#c0c0c0]">
-                filler text
+                New structures and interactions to make the environment more immersive and engaging. Next map expansion would be the castle interior with an updated dungeon to store the criminals. 
               </p>
             </div>
 
             <div className="bg-[#1a1a1a] p-6 rounded-lg border border-[#8b0000]/50 shadow-lg shadow-[#8b0000]/10 hover:border-[#dc143c]/70 transition-all">
               <h3 className="text-xl font-semibold text-[#dc143c] mb-3">Custom NPC designs</h3>
               <p className="text-[#c0c0c0]">
-                filler text
+                Unique character designs for non-player characters to enhance the storytelling and immersion. Improve animations and scripts for existing NPCs and Criminals. New characters will be added in future updates as well.
               </p>
             </div>
 
             <div className="bg-[#1a1a1a] p-6 rounded-lg border border-[#8b0000]/50 shadow-lg shadow-[#8b0000]/10 hover:border-[#dc143c]/70 transition-all">
               <h3 className="text-xl font-semibold text-[#dc143c] mb-3">Animated Execution Scenes</h3>
               <p className="text-[#c0c0c0]">
-                filler text
+                Increase the variety of execution scenes with unique animations and visual effects. Each criminal will have their own unique execution method to increase the weight of the player's choice.
               </p>
             </div>
 
             <div className="bg-[#1a1a1a] p-6 rounded-lg border border-[#8b0000]/50 shadow-lg shadow-[#8b0000]/10 hover:border-[#dc143c]/70 transition-all">
               <h3 className="text-xl font-semibold text-[#dc143c] mb-3">Criminals and Story</h3>
               <p className="text-[#c0c0c0]">
-                filler text
+                The fate of each criminal will impact the story and the world around you. Your choices will shape the narrative and determine the outcome of the game. Different endings depending which criminals you execute or spare.
               </p>
             </div>
           </div>
@@ -229,27 +216,15 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-center bg-[#0a0a0a] p-6 rounded-lg border border-[#8b0000]/30 shadow-lg shadow-[#8b0000]/10">
               <h3 className="font-semibold text-xl text-[#dc143c] mb-2">Chase Tom</h3>
-              <p className="text-sm text-[#c0c0c0]">
-                filler text
-              </p>
             </div>
             <div className="text-center bg-[#0a0a0a] p-6 rounded-lg border border-[#8b0000]/30 shadow-lg shadow-[#8b0000]/10">
               <h3 className="font-semibold text-xl text-[#dc143c] mb-2">Koalani Okada</h3>
-              <p className="text-sm text-[#c0c0c0]">
-                filler text
-              </p>
             </div>
             <div className="text-center bg-[#0a0a0a] p-6 rounded-lg border border-[#8b0000]/30 shadow-lg shadow-[#8b0000]/10">
               <h3 className="font-semibold text-xl text-[#dc143c] mb-2">Dylan Gomez</h3>
-              <p className="text-sm text-[#c0c0c0]">
-                filler text
-              </p>
             </div>
             <div className="text-center bg-[#0a0a0a] p-6 rounded-lg border border-[#8b0000]/30 shadow-lg shadow-[#8b0000]/10">
               <h3 className="font-semibold text-xl text-[#dc143c] mb-2">Dat Truong</h3>
-              <p className="text-sm text-[#c0c0c0]">
-                filler text
-              </p>
             </div>
           </div>
         </div>
