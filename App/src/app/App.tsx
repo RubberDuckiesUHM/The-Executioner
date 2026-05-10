@@ -19,7 +19,7 @@ export default function App() {
         <div className="flex justify-between items-center px-8 py-8">
           <h2 className="font-bold text-xl text-[#dc143c]">Rubber Duckies</h2>
           <nav className="flex gap-2">
-            {['gameplay', 'mechanics', 'development', 'team'].map((section) => (
+            {['gameplay', 'mechanics', 'development', 'future', 'team'].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -174,7 +174,7 @@ export default function App() {
       </section>
 
       {/* Future Development */}
-      <section className="bg-[#0a0a0a] py-16 px-16">
+      <section id="future" className="bg-[#0a0a0a] py-16 px-16">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-[#dc143c] mb-8 text-center drop-shadow-[0_0_15px_rgba(220,20,60,0.4)]">Future Development</h2>
           <div className="space-y-6">
