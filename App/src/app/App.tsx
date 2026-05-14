@@ -54,6 +54,11 @@ export default function App() {
             rel="noopener noreferrer"
             className="block aspect-video bg-[#1a1a1a] rounded-lg overflow-hidden relative border-2 border-[#8b0000]/50 shadow-2xl shadow-[#8b0000]/30"
           >
+            <img
+              src={imgPlaceholder}
+              alt="Gameplay trailer thumbnail"
+              className="w-full h-full object-cover opacity-40"
+            />
             <div className="absolute inset-0 flex items-center justify-center bg-black/40">
               <div className="text-center">
                 <div className="w-20 h-20 rounded-full bg-[#8b0000]/80 flex items-center justify-center mb-4 mx-auto shadow-lg shadow-[#8b0000]/50 hover:bg-[#dc143c] transition-all cursor-pointer">
@@ -62,7 +67,7 @@ export default function App() {
                 <p className="text-[#e0e0e0] text-xl font-semibold">Watch Gameplay Trailer</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
