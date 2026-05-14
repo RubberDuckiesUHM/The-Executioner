@@ -48,12 +48,12 @@ export default function App() {
       {/* Gameplay Trailer */}
       <section id="gameplay" className="bg-[#0a0a0a] py-16 px-16">
         <div className="max-w-6xl mx-auto">
-          <div className="aspect-video bg-[#1a1a1a] rounded-lg overflow-hidden relative border-2 border-[#8b0000]/50 shadow-2xl shadow-[#8b0000]/30">
-            <img
-              src={imgPlaceholder}
-              alt="Gameplay trailer placeholder"
-              className="w-full h-full object-cover opacity-30"
-            />
+          <a
+            href="https://drive.google.com/file/d/18g1nrEUOtT9uSF4dXUYC6qzDJPw8Xz-_/preview"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block aspect-video bg-[#1a1a1a] rounded-lg overflow-hidden relative border-2 border-[#8b0000]/50 shadow-2xl shadow-[#8b0000]/30"
+          >
             <div className="absolute inset-0 flex items-center justify-center bg-black/40">
               <div className="text-center">
                 <div className="w-20 h-20 rounded-full bg-[#8b0000]/80 flex items-center justify-center mb-4 mx-auto shadow-lg shadow-[#8b0000]/50 hover:bg-[#dc143c] transition-all cursor-pointer">
