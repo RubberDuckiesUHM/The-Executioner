@@ -64,7 +64,7 @@ export default function App() {
                 <div className="w-20 h-20 rounded-full bg-[#8b0000]/80 flex items-center justify-center mb-4 mx-auto shadow-lg shadow-[#8b0000]/50 hover:bg-[#dc143c] transition-all cursor-pointer">
                   <div className="w-0 h-0 border-t-[12px] border-t-transparent border-l-[20px] border-l-white border-b-[12px] border-b-transparent ml-1"></div>
                 </div>
-                <p className="text-[#e0e0e0] text-xl font-semibold">Watch Gameplay Trailer</p>
+                <p className="text-[#e0e0e0] text-xl font-semibold">Watch Gameplay Trailer Now</p>
               </div>
             </div>
           </a>
