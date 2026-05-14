@@ -49,7 +49,7 @@ export default function App() {
       <section id="gameplay" className="bg-[#0a0a0a] py-16 px-16">
         <div className="max-w-6xl mx-auto">
           <iframe
-            href="https://drive.google.com/file/d/18g1nrEUOtT9uSF4dXUYC6qzDJPw8Xz-_/view?usp=drive_link"
+            src="https://drive.google.com/file/d/18g1nrEUOtT9uSF4dXUYC6qzDJPw8Xz-_/preview"
             target="_blank"
             rel="noopener noreferrer"
             className="block aspect-video bg-[#1a1a1a] rounded-lg overflow-hidden relative border-2 border-[#8b0000]/50 shadow-2xl shadow-[#8b0000]/30"
